@@ -1,4 +1,4 @@
-@theme {
+@theme inline {
   --font-mono: 'Maple Mono', monospace;
 
   /* Brand Colors */
@@ -19,6 +19,6 @@
 
 @layer base {
   body {
-    font-family: var(--font-mono);
+    @apply font-mono;
   }
 }
