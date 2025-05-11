@@ -11,8 +11,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@fontsource/maple-mono": "5.2.5",
     "@tailwindcss/vite": "4.1.6",
-    "clsx": "2.1.1",
+    "class-variance-authority": "0.7.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "tailwindcss": "4.1.6"

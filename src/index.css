@@ -1,2 +1,7 @@
 @import 'tailwindcss';
+
+/* Themes */
+@import './components/themes/default.css';
+
+/* Components */
 @import './components/button/button.css';
