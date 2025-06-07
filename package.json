@@ -18,7 +18,7 @@
     "clsx": "2.1.1",
     "lucide-react": "0.510.0",
     "react": "19.1.0",
-    "react-dom": "19.0.0",
+    "react-dom": "19.1.0",
     "tailwind-merge": "3.3.0",
     "tailwindcss": "4.1.6"
   },
@@ -30,7 +30,7 @@
     "@storybook/react-vite": "9.0.6",
     "@types/node": "20",
     "@types/react": "19.1.6",
-    "@types/react-dom": "19.0.1",
+    "@types/react-dom": "19.1.6",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "eslint-plugin-storybook": "9.0.6",
@@ -43,5 +43,10 @@
     "typescript-eslint": "8.29.1",
     "vite": "npm:rolldown-vite@latest",
     "vite-tsconfig-paths": "5.1.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@latest"
+    }
   }
 }
