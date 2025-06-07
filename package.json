@@ -8,7 +8,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
-    "storybook:build": "storybook build",
+    "storybook:build": "storybook build && mv ./storybook-static ./public/storybook",
     "registry:dev": "vite dev",
     "registry:build": "shadcn build",
     "registry:start": "vite start"
