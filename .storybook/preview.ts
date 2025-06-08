@@ -13,6 +13,10 @@ import '@fontsource/maple-mono/800.css';
 const preview: Preview = {
   tags: ['autodocs'],
   parameters: {
+    docs: {
+      codePanel: true,
+    },
+    layout: 'centered',
     controls: {
       matchers: {
         color: /(background|color)$/i,
